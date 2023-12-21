@@ -1,0 +1,122 @@
+body {
+    background: hsl(34, 95%, 77%);
+
+}
+.secret{
+    color: hsl(34, 95%, 77%);
+    text-decoration-line:none;
+}
+
+h1 {
+    border-style:dotted;
+    width:fit-content
+}
+
+p {
+    font-size: 30px;
+}
+img {
+    border-style:groove;
+    border-color: rgb(238, 176, 5);
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+.imgNoBorder{
+    border-style:none;
+    border-color: rgb(238, 176, 5);
+    border-radius: 0px;
+    border-width: 0px;
+}
+#FuecocoTable{
+    border:solid;
+}
+
+#FuecocoTable > td, #FuecocoTable > th {
+    border:solid;
+    border-color: black;
+}
+
+td, th {
+    border:solid;
+    border-color: black;
+}
+
+table {
+    border:solid;
+}
+tr:hover{
+    opacity: .75;
+}
+
+.listhover:hover{
+    opacity: .75;
+}
+.basictype {
+    background-color: gray;
+}
+
+.firetype {
+    background-color: red;
+}
+.darktype {
+    background-color:black;
+    color:white;
+}
+.animate{
+    z-index: -1;
+    width:100px;
+    height:100px;
+    background-color:green;
+    position:relative;
+    animation-name:example;
+    animation-duration:12s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {background-color:green; left:0px;top:0px;}
+    10% {background-color:aqua; left:200px;top:10px;}
+    20% {background-color: blue;left:800px;top:100px;}
+    30% {background-color:blueviolet;left:300px;top:-500px}
+    40% {background-color:violet;}
+    50% {background-color:red;}
+    60% {background-color: orange;}top
+    70% {background-color: yellow;}
+    80% {background-color:limegreen;}
+    90% {background-color: #00e1ff;}
+    100% {background-color: blue; left:0px;top:0px}
+}
+
+.strawberryAnimate{
+    border-style:none;
+    width:25px;
+    position:absolute;
+    animation-name:strawberryAnimateKeyframe;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes strawberryAnimateKeyframe {
+    0% {left:400px;top:100px;}
+    25% {left:850px;top:100px;}
+    50% {left:850px;top:500px;}
+    75% {left:400px;top:500px;}
+    100% {left:400px;top:100px;}
+}
+
+.fuecocoChasing {
+    border-style:none;
+    width:75px;
+    position:absolute;
+    animation-name:fuecocoChasingKeyframe;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fuecocoChasingKeyframe {
+    0% {left:400px;top:500px;}
+    25% {left:400px;top:100px;}
+    50% {left:850px;top:100px;}
+    75% {left:850px;top:500px;}
+    100% {left:400px;top:500px;}
+}
