@@ -1,0 +1,47 @@
+html{
+    background-color:rgb(182, 182, 204);
+    background-image: url("background.avif");
+}
+body {
+    text-align: center;
+}
+p , h1 , h2,ul,li{
+    color: white;
+}
+a{
+    color: white; 
+}
+
+h1{
+    border-style: solid;
+    background-color: black;
+    border-color: white;
+}
+
+#myTable , td{
+    color:black;
+    border-style: solid;
+    border-color:black;
+    background-color: white;
+}
+#myTable > tr, #myTable > tr > td{
+    color:black;
+    border-style: solid;
+    border-color:black;
+    background-color: white;
+}
+
+table{
+    margin:auto;
+}
+ul,li{
+    margin:auto;
+    color:white;
+}
+ul{
+    list-style-position: inside;
+}
+
+div{
+    color:black;
+}
