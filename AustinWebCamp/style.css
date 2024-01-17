@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: url("background.jpg");
+}
+
+p, h1, h2{
+    color :darkgreen;
+    text-align: center;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.tierMythic{
+    color: red;
+    text-align: center;
+}
+.tierExclusive{
+    color:rgb(232, 80, 232);
+    text-align: center;
+}
+.classGodly{
+    color:rgb(82, 2, 82);
+    text-align: center;
+}
+.tierLegendary{
+    color: rgb(175, 175, 2);
+    text-align: center;
+}
+table,td,th{
+    border-style: solid;
+    background-color: white;
+}
+#skibbidiToilet {
+    color: floralwhite;
+}
+
+h1{
+    border-style: solid;
+    border-color:red ;
+}
+
+.centerimg {
+    margin: auto;
+    display: block;
+}
+table{
+    margin:auto;
+}
